@@ -26,6 +26,7 @@ body{
     background-color: rgb(2, 171, 238);
     color: white;
     font-size: 16px;
+    height: 100%;
 
    
 }
@@ -52,7 +53,7 @@ body{
     bottom: 35px;
     padding: 20px;
     font-size: 12px;
-    box-shadow: 0 0 1px 2px;
+    box-shadow: 1px 2px 5px gray;
 
     
 }
@@ -78,9 +79,9 @@ body{
 .announcements{
     grid-column: -2/-1;
     grid-row: 2/-2; 
-   
     background-color: rgb(236, 240, 241);
-    margin-bottom: 20px;
+   margin-top: 5px;
+   margin-bottom: 5px;
     text-align: left;
     padding:1.5rem 2rem 0rem;
    
@@ -93,6 +94,7 @@ body{
     font-size: 10px;
     padding: 5px;
     border-radius: 5px;
+    box-shadow: 1px 2px 5px gray;
     /* height: 12rem; */
 }
 
@@ -112,6 +114,7 @@ body{
     font-size: 15px;
     border-radius: 5px;
     padding-top: 10px;
+    box-shadow: 0 2px 5px gray;
 }
 
 button{
@@ -140,6 +143,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     padding: 5px 30px;
+    box-shadow: 2px 0px 5px gray;
 }
 .search-box > *{
     flex-grow: 1;
@@ -197,6 +201,9 @@ label{
     display: flex;
     
 }
+.caption h3{
+    margin-left: 20px;
+}
 
 .caption-one{
     
@@ -219,4 +226,14 @@ top: 20px;
 #magnify{
     position: relative;
     top: 3px; 
+}
+
+#knitting-cat{
+    position: relative;
+    top: 5px;
+}
+
+.frame{
+    position: relative;
+    left: 15px; 
 }
